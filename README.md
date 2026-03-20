@@ -100,6 +100,8 @@ Simulation Noise can be used to generate divergence-free, 2D and 3D, flow fields
 (fx, fy, fz) = fractal(sim_noise3d, x, y, z, t)
 ```
 
+<img src="images/sim3d.png"/>
+
 ### Curl Noise
 ```julia
 (fx, fy, fz) = curl_noise(x, y, z)
@@ -107,6 +109,8 @@ Simulation Noise can be used to generate divergence-free, 2D and 3D, flow fields
 (fx, fy, fz) = fractal(curl_noise, x, y, z)
 (fx, fy, fz) = fractal(curl_noise, x, y, z, t)
 ```
+
+<img src="images/curl.png"/>
 
 ### Bitangent Noise
 ```julia
@@ -116,6 +120,7 @@ Simulation Noise can be used to generate divergence-free, 2D and 3D, flow fields
 (fx, fy, fz) = fractal(bitangent_noise, x, y, z, t)
 ```
 
+<img src="images/bitangent.png"/>
 
 
 ##### TODO
